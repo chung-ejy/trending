@@ -40,7 +40,7 @@ const Form = ({data}) => {
                     </div>
                 ))}
                 <div className="form-group">
-                    <button type="submit" class="btn btn-primary form-control">Classify</button>
+                    <button type="submit" class="btn btn-primary form-control">Days to Trending</button>
                 </div>
             </form>
         </div>

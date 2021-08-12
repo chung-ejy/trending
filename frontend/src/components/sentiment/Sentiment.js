@@ -11,7 +11,7 @@ const Sentiment = ({data}) => {
             <h3 className={`text-center mt-3`}>
                 {"Days to Trending: "}
                 <span className={`text-${color}`}>
-                    {data.prediction == 0 ? "Trending": "Almost.."}
+                    {data.prediction}
                 </span>
             </h3>
         </div>

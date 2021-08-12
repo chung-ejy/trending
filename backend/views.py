@@ -41,4 +41,5 @@ def backendView(request):
         complete = info
         complete["prediction"] = "not found"
         print(str(e))
+    complete = {k: v for k,v in complete.items() if "tb" not in k}
     return JsonResponse(complete,safe=False)
